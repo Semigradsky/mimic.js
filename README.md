@@ -10,5 +10,4 @@ const decodedCode = decode(code);
 ```
 
 ## Available options
-
-- `chance` - replacement percent [0-100] (default - 1)
+- `chance` - replacement percent (0-100) (default: 1)
