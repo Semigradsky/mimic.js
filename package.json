@@ -1,0 +1,33 @@
+{
+  "name": "mimic.js",
+  "version": "0.0.0",
+  "description": "JavaScript port of mimic",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "eslint src && npm run publish",
+    "publish": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Semigradsky/mimic.js.git"
+  },
+  "keywords": [
+    "mimic",
+    "fun",
+    "frustration",
+    "curiosity"
+  ],
+  "author": "Dmitry Semigradsky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Semigradsky/mimic.js/issues"
+  },
+  "homepage": "https://github.com/Semigradsky/mimic.js",
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "babel-eslint": "^4.0.5",
+    "eslint": "^1.0.0",
+    "eslint-config-airbnb-lite": "^1.0.3"
+  },
+  "dependencies": {}
+}
